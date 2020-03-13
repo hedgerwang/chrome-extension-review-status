@@ -1,0 +1,14 @@
+
+
+a[aria-label~="review"][aria-label~="approval"],
+a[aria-label~="requesting"][aria-label~="changes"] {
+  background-color: #FF5470;
+  border-radius: 5px;
+  color: #fff !important;
+  display: inline-block;
+  padding: 3px 6px;
+}
+
+a[aria-label~="review"][aria-label~="approval"] {
+  background-color: rgb(6, 138, 65);
+}

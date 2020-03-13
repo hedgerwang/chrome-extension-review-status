@@ -1,0 +1,13 @@
+{
+  "manifest_version": 1,
+
+  "name": "Github Changes Requested and Approved Badge Styles",
+  "version": "0.1.0",
+  "description": "Brings better attention to the Changes Requested and Approved markings in list of pull requests",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://github.com/*"]
+  }]
+
+}
